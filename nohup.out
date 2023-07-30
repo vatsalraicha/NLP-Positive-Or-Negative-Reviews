@@ -1,0 +1,134 @@
+[W 04:46:11.194 NotebookApp] Error loading server extension jupyter_server_ydoc
+    Traceback (most recent call last):
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/notebook/notebookapp.py", line 2047, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named 'jupyter_server_ydoc'
+[W 04:46:11.203 NotebookApp] Error loading server extension jupyterlab
+    Traceback (most recent call last):
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/notebook/notebookapp.py", line 2047, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named 'jupyterlab'
+[I 04:46:11.243 NotebookApp] Serving notebooks from local directory: /Users/vatsal/SSDCopy/AllMLCode/Projects/NLP-Positive-Or-Negative-Reviews
+[I 04:46:11.244 NotebookApp] Jupyter Notebook 6.5.4 is running at:
+[I 04:46:11.244 NotebookApp] http://localhost:9091/?token=...
+[I 04:46:11.244 NotebookApp]  or http://127.0.0.1:9091/?token=...
+[I 04:46:11.244 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 04:46:23.522 NotebookApp] 404 GET /hub/api (127.0.0.1) 345.850000ms referer=None
+[I 04:46:23.526 NotebookApp] 302 GET /tree? (127.0.0.1) 0.880000ms
+[W 04:48:03.169 NotebookApp] 404 GET /hub/api (127.0.0.1) 1.890000ms referer=None
+[I 04:48:03.173 NotebookApp] 302 GET /tree? (127.0.0.1) 0.790000ms
+[I 04:48:03.330 NotebookApp] Kernel started: aef615f8-fa2a-4fb8-b6aa-165333892d6b, name: python3
+[E 04:48:13.725 NotebookApp] Uncaught exception in ZMQStream callback
+    Traceback (most recent call last):
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/zmq/eventloop/zmqstream.py", line 584, in _run_callback
+        f = callback(*args, **kwargs)
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/zmq/eventloop/zmqstream.py", line 308, in stream_callback
+        return callback(self, msg)
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/notebook/services/kernels/handlers.py", line 572, in _on_zmq_reply
+        super()._on_zmq_reply(stream, msg)
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/notebook/base/zmqhandlers.py", line 256, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/websocket.py", line 334, in write_message
+        return self.ws_connection.write_message(message, binary=binary)
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/websocket.py", line 1081, in write_message
+        fut = self._write_frame(True, opcode, message, flags=flags)
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/websocket.py", line 1056, in _write_frame
+        return self.stream.write(frame)
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/iostream.py", line 539, in write
+        self._handle_write()
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/iostream.py", line 965, in _handle_write
+        self._write_buffer.advance(num_bytes)
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/iostream.py", line 182, in advance
+        assert 0 < size <= self._size
+    AssertionError
+[E 04:48:13.830 NotebookApp] Uncaught exception in zmqstream callback
+    Traceback (most recent call last):
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/zmq/eventloop/zmqstream.py", line 634, in _handle_events
+        self._handle_recv()
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/zmq/eventloop/zmqstream.py", line 663, in _handle_recv
+        self._run_callback(callback, msg)
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/zmq/eventloop/zmqstream.py", line 584, in _run_callback
+        f = callback(*args, **kwargs)
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/zmq/eventloop/zmqstream.py", line 308, in stream_callback
+        return callback(self, msg)
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/notebook/services/kernels/handlers.py", line 572, in _on_zmq_reply
+        super()._on_zmq_reply(stream, msg)
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/notebook/base/zmqhandlers.py", line 256, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/websocket.py", line 334, in write_message
+        return self.ws_connection.write_message(message, binary=binary)
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/websocket.py", line 1081, in write_message
+        fut = self._write_frame(True, opcode, message, flags=flags)
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/websocket.py", line 1056, in _write_frame
+        return self.stream.write(frame)
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/iostream.py", line 539, in write
+        self._handle_write()
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/iostream.py", line 965, in _handle_write
+        self._write_buffer.advance(num_bytes)
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/iostream.py", line 182, in advance
+        assert 0 < size <= self._size
+    AssertionError
+[W 04:48:13.837 NotebookApp] 404 GET /hub/api (127.0.0.1) 2.220000ms referer=None
+[I 04:48:13.840 NotebookApp] 302 GET /tree? (127.0.0.1) 0.640000ms
+Exception in callback BaseAsyncIOLoop._handle_events(42, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(42, 1)>
+Traceback (most recent call last):
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 192, in _handle_events
+    handler_func(fileobj, events)
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/zmq/eventloop/zmqstream.py", line 634, in _handle_events
+    self._handle_recv()
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/zmq/eventloop/zmqstream.py", line 663, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/zmq/eventloop/zmqstream.py", line 584, in _run_callback
+    f = callback(*args, **kwargs)
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/zmq/eventloop/zmqstream.py", line 308, in stream_callback
+    return callback(self, msg)
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/notebook/services/kernels/handlers.py", line 572, in _on_zmq_reply
+    super()._on_zmq_reply(stream, msg)
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/notebook/base/zmqhandlers.py", line 256, in _on_zmq_reply
+    self.write_message(msg, binary=isinstance(msg, bytes))
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/websocket.py", line 334, in write_message
+    return self.ws_connection.write_message(message, binary=binary)
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/websocket.py", line 1081, in write_message
+    fut = self._write_frame(True, opcode, message, flags=flags)
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/websocket.py", line 1056, in _write_frame
+    return self.stream.write(frame)
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/iostream.py", line 539, in write
+    self._handle_write()
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/iostream.py", line 965, in _handle_write
+    self._write_buffer.advance(num_bytes)
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/iostream.py", line 182, in advance
+    assert 0 < size <= self._size
+AssertionError
+[W 04:48:13.864 NotebookApp] Forbidden
+[W 04:48:13.876 NotebookApp] 403 GET /api/kernelspecs?1690620493842 (127.0.0.1) 16.270000ms referer=None
+[W 04:48:13.883 NotebookApp] Forbidden
+[W 04:48:13.884 NotebookApp] 403 GET /api/kernelspecs?1690620493844 (127.0.0.1) 22.610000ms referer=None
+[W 04:48:13.892 NotebookApp] Forbidden
+[W 04:48:13.892 NotebookApp] 403 GET /api/kernels?1690620493845 (127.0.0.1) 6.760000ms referer=None
+[W 04:48:13.893 NotebookApp] Forbidden
+[W 04:48:13.894 NotebookApp] 403 GET /api/kernels?1690620493847 (127.0.0.1) 7.810000ms referer=None
+[W 04:48:13.895 NotebookApp] Forbidden
+[W 04:48:13.895 NotebookApp] 403 GET /api/kernels?1690620493849 (127.0.0.1) 8.200000ms referer=None
+[W 04:48:13.896 NotebookApp] Forbidden
+[W 04:48:13.897 NotebookApp] 403 GET /api/kernels?1690620493851 (127.0.0.1) 8.250000ms referer=None
+[W 04:48:13.898 NotebookApp] Forbidden
+[W 04:48:13.898 NotebookApp] 403 GET /api/sessions?1690620493852 (127.0.0.1) 8.660000ms referer=None
+[W 04:48:13.907 NotebookApp] Forbidden
+[W 04:48:13.908 NotebookApp] 403 GET /api/sessions?1690620493854 (127.0.0.1) 3.940000ms referer=None
+[W 04:48:13.916 NotebookApp] Forbidden
+[W 04:48:13.917 NotebookApp] 403 GET /api/kernelspecs?1690620493867 (127.0.0.1) 4.620000ms referer=None
+[W 04:48:13.971 NotebookApp] Forbidden
+[W 04:48:13.973 NotebookApp] 403 GET /api/kernelspecs?1690620493886 (127.0.0.1) 58.810000ms referer=None
