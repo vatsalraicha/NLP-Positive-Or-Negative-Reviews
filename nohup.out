@@ -132,3 +132,231 @@ AssertionError
 [W 04:48:13.917 NotebookApp] 403 GET /api/kernelspecs?1690620493867 (127.0.0.1) 4.620000ms referer=None
 [W 04:48:13.971 NotebookApp] Forbidden
 [W 04:48:13.973 NotebookApp] 403 GET /api/kernelspecs?1690620493886 (127.0.0.1) 58.810000ms referer=None
+[I 06:35:34.505 NotebookApp] Starting buffering for aef615f8-fa2a-4fb8-b6aa-165333892d6b:3b25b8cf-fa4f-4041-b6ef-e455aaee9741
+[W 06:35:36.712 NotebookApp] 404 GET /hub/api (127.0.0.1) 25.990000ms referer=None
+[I 06:35:36.716 NotebookApp] 302 GET /tree? (127.0.0.1) 1.330000ms
+[W 06:35:36.738 NotebookApp] Forbidden
+[W 06:35:36.738 NotebookApp] 403 GET /api/kernelspecs?1690713336722 (127.0.0.1) 5.190000ms referer=None
+[W 06:35:36.739 NotebookApp] Forbidden
+[W 06:35:36.740 NotebookApp] 403 GET /api/kernels?1690713336722 (127.0.0.1) 5.810000ms referer=None
+[W 06:35:36.741 NotebookApp] Forbidden
+[W 06:35:36.741 NotebookApp] 403 GET /api/kernels?1690713336723 (127.0.0.1) 6.610000ms referer=None
+[W 06:35:36.742 NotebookApp] Forbidden
+[W 06:35:36.742 NotebookApp] 403 GET /api/kernels?1690713336725 (127.0.0.1) 6.750000ms referer=None
+[W 06:35:36.743 NotebookApp] Forbidden
+[W 06:35:36.743 NotebookApp] 403 GET /api/kernels?1690713336727 (127.0.0.1) 7.680000ms referer=None
+[W 06:35:36.744 NotebookApp] Forbidden
+[W 06:35:36.744 NotebookApp] 403 GET /api/sessions?1690713336727 (127.0.0.1) 7.720000ms referer=None
+[W 06:35:36.745 NotebookApp] Forbidden
+[W 06:35:36.746 NotebookApp] 403 GET /api/sessions?1690713336728 (127.0.0.1) 8.780000ms referer=None
+[W 06:35:36.746 NotebookApp] Forbidden
+[W 06:35:36.746 NotebookApp] 403 GET /api/kernelspecs?1690713336720 (127.0.0.1) 9.000000ms referer=None
+[W 06:35:36.754 NotebookApp] Forbidden
+[W 06:35:36.754 NotebookApp] 403 GET /api/kernelspecs?1690713336739 (127.0.0.1) 1.020000ms referer=None
+[W 09:31:59.196 NotebookApp] 404 GET /hub/api (127.0.0.1) 12.600000ms referer=None
+[I 09:31:59.200 NotebookApp] 302 GET /tree? (127.0.0.1) 1.560000ms
+[W 09:32:00.058 NotebookApp] 404 GET /hub/api (127.0.0.1) 4.830000ms referer=None
+[I 09:32:00.074 NotebookApp] 302 GET /tree? (127.0.0.1) 1.030000ms
+[W 09:32:00.123 NotebookApp] Forbidden
+[W 09:32:00.124 NotebookApp] 403 GET /api/kernelspecs?1690723920079 (127.0.0.1) 14.520000ms referer=None
+[W 09:32:00.124 NotebookApp] Forbidden
+[W 09:32:00.125 NotebookApp] 403 GET /api/kernelspecs?1690723920080 (127.0.0.1) 14.990000ms referer=None
+[W 09:32:00.126 NotebookApp] Forbidden
+[W 09:32:00.127 NotebookApp] 403 GET /api/kernels?1690723920083 (127.0.0.1) 15.800000ms referer=None
+[W 09:32:00.127 NotebookApp] Forbidden
+[W 09:32:00.128 NotebookApp] 403 GET /api/kernels?1690723920082 (127.0.0.1) 16.340000ms referer=None
+[W 09:32:00.129 NotebookApp] Forbidden
+[W 09:32:00.130 NotebookApp] 403 GET /api/kernels?1690723920086 (127.0.0.1) 17.190000ms referer=None
+[W 09:32:00.130 NotebookApp] Forbidden
+[W 09:32:00.131 NotebookApp] 403 GET /api/kernels?1690723920087 (127.0.0.1) 17.900000ms referer=None
+[W 09:32:00.134 NotebookApp] Forbidden
+[W 09:32:00.137 NotebookApp] 403 GET /api/sessions?1690723920090 (127.0.0.1) 20.990000ms referer=None
+[W 09:32:00.139 NotebookApp] Forbidden
+[W 09:32:00.140 NotebookApp] 403 GET /api/sessions?1690723920092 (127.0.0.1) 24.230000ms referer=None
+[W 09:32:00.161 NotebookApp] Forbidden
+[W 09:32:00.161 NotebookApp] 403 GET /api/kernelspecs?1690723920130 (127.0.0.1) 1.490000ms referer=None
+[W 09:32:00.162 NotebookApp] Forbidden
+[W 09:32:00.163 NotebookApp] 403 GET /api/kernelspecs?1690723920132 (127.0.0.1) 2.300000ms referer=None
+[W 09:32:00.931 NotebookApp] 404 GET /hub/api (127.0.0.1) 3.830000ms referer=None
+[I 09:32:00.938 NotebookApp] 302 GET /tree? (127.0.0.1) 1.030000ms
+[W 09:32:00.961 NotebookApp] Forbidden
+[W 09:32:00.961 NotebookApp] 403 GET /api/kernels?1690723920944 (127.0.0.1) 6.070000ms referer=None
+[W 09:32:00.961 NotebookApp] Forbidden
+[W 09:32:00.962 NotebookApp] 403 GET /api/kernels?1690723920946 (127.0.0.1) 5.690000ms referer=None
+[W 09:32:00.963 NotebookApp] Forbidden
+[W 09:32:00.964 NotebookApp] 403 GET /api/sessions?1690723920947 (127.0.0.1) 6.070000ms referer=None
+[W 09:32:00.964 NotebookApp] Forbidden
+[W 09:32:00.964 NotebookApp] 403 GET /api/sessions?1690723920948 (127.0.0.1) 5.220000ms referer=None
+[W 09:32:00.970 NotebookApp] Forbidden
+[W 09:32:00.970 NotebookApp] 403 GET /api/kernelspecs?1690723920940 (127.0.0.1) 5.630000ms referer=None
+[W 09:32:00.971 NotebookApp] Forbidden
+[W 09:32:00.971 NotebookApp] 403 GET /api/kernelspecs?1690723920941 (127.0.0.1) 4.060000ms referer=None
+[W 09:32:00.975 NotebookApp] Forbidden
+[W 09:32:00.975 NotebookApp] 403 GET /api/kernels?1690723920943 (127.0.0.1) 6.480000ms referer=None
+[W 09:32:00.976 NotebookApp] Forbidden
+[W 09:32:00.976 NotebookApp] 403 GET /api/kernels?1690723920942 (127.0.0.1) 7.120000ms referer=None
+[W 09:32:00.981 NotebookApp] Forbidden
+[W 09:32:00.981 NotebookApp] 403 GET /api/kernelspecs?1690723920961 (127.0.0.1) 2.060000ms referer=None
+[W 09:32:00.982 NotebookApp] Forbidden
+[W 09:32:00.982 NotebookApp] 403 GET /api/kernelspecs?1690723920964 (127.0.0.1) 2.260000ms referer=None
+[W 12:29:24.005 NotebookApp] 404 GET /hub/api (127.0.0.1) 9.400000ms referer=None
+[I 12:29:24.012 NotebookApp] 302 GET /tree? (127.0.0.1) 2.880000ms
+[I 12:29:24.133 NotebookApp] Kernel started: 02fa1d1c-5be4-4941-a360-970cf36abb2b, name: python3
+[W 12:29:35.403 NotebookApp] 404 GET /hub/api (127.0.0.1) 1.700000ms referer=None
+[I 12:29:35.408 NotebookApp] 302 GET /tree? (127.0.0.1) 0.570000ms
+[W 12:29:35.430 NotebookApp] Forbidden
+[W 12:29:35.431 NotebookApp] 403 GET /api/kernelspecs?1690820975410 (127.0.0.1) 5.430000ms referer=None
+[W 12:29:35.431 NotebookApp] Forbidden
+[W 12:29:35.431 NotebookApp] 403 GET /api/kernelspecs?1690820975410 (127.0.0.1) 5.570000ms referer=None
+[W 12:29:35.432 NotebookApp] Forbidden
+[W 12:29:35.432 NotebookApp] 403 GET /api/kernels?1690820975412 (127.0.0.1) 4.800000ms referer=None
+[W 12:29:35.433 NotebookApp] Forbidden
+[W 12:29:35.433 NotebookApp] 403 GET /api/kernels?1690820975413 (127.0.0.1) 5.460000ms referer=None
+[W 12:29:35.434 NotebookApp] Forbidden
+[W 12:29:35.434 NotebookApp] 403 GET /api/kernels?1690820975415 (127.0.0.1) 5.540000ms referer=None
+[W 12:29:35.434 NotebookApp] Forbidden
+[W 12:29:35.435 NotebookApp] 403 GET /api/kernels?1690820975415 (127.0.0.1) 5.650000ms referer=None
+[W 12:29:35.435 NotebookApp] Forbidden
+[W 12:29:35.436 NotebookApp] 403 GET /api/sessions?1690820975418 (127.0.0.1) 6.010000ms referer=None
+[W 12:29:35.436 NotebookApp] Forbidden
+[W 12:29:35.436 NotebookApp] 403 GET /api/sessions?1690820975419 (127.0.0.1) 6.350000ms referer=None
+[W 12:29:35.448 NotebookApp] Forbidden
+[W 12:29:35.448 NotebookApp] 403 GET /api/kernelspecs?1690820975432 (127.0.0.1) 0.800000ms referer=None
+[W 12:29:35.449 NotebookApp] Forbidden
+[W 12:29:35.449 NotebookApp] 403 GET /api/kernelspecs?1690820975436 (127.0.0.1) 0.650000ms referer=None
+[I 14:03:55.858 NotebookApp] Starting buffering for 02fa1d1c-5be4-4941-a360-970cf36abb2b:07dc3b0a-e29d-415c-b846-830ad66a683d
+[W 14:03:58.356 NotebookApp] 404 GET /hub/api (127.0.0.1) 4.170000ms referer=None
+[I 14:03:58.360 NotebookApp] 302 GET /tree? (127.0.0.1) 0.710000ms
+[W 14:03:58.375 NotebookApp] Forbidden
+[W 14:03:58.375 NotebookApp] 403 GET /api/kernelspecs?1690826638361 (127.0.0.1) 2.030000ms referer=None
+[W 14:03:58.376 NotebookApp] Forbidden
+[W 14:03:58.376 NotebookApp] 403 GET /api/kernelspecs?1690826638361 (127.0.0.1) 1.930000ms referer=None
+[W 14:03:58.381 NotebookApp] Forbidden
+[W 14:03:58.382 NotebookApp] 403 GET /api/kernels?1690826638363 (127.0.0.1) 4.980000ms referer=None
+[W 14:03:58.383 NotebookApp] Forbidden
+[W 14:03:58.383 NotebookApp] 403 GET /api/kernels?1690826638363 (127.0.0.1) 5.770000ms referer=None
+[W 14:03:58.384 NotebookApp] Forbidden
+[W 14:03:58.384 NotebookApp] 403 GET /api/kernels?1690826638365 (127.0.0.1) 5.970000ms referer=None
+[W 14:03:58.384 NotebookApp] Forbidden
+[W 14:03:58.384 NotebookApp] 403 GET /api/kernels?1690826638366 (127.0.0.1) 6.220000ms referer=None
+[W 14:03:58.385 NotebookApp] Forbidden
+[W 14:03:58.386 NotebookApp] 403 GET /api/sessions?1690826638367 (127.0.0.1) 6.920000ms referer=None
+[W 14:03:58.386 NotebookApp] Forbidden
+[W 14:03:58.387 NotebookApp] 403 GET /api/sessions?1690826638368 (127.0.0.1) 8.100000ms referer=None
+[W 14:03:58.391 NotebookApp] Forbidden
+[W 14:03:58.391 NotebookApp] 403 GET /api/kernelspecs?1690826638376 (127.0.0.1) 1.530000ms referer=None
+[W 14:03:58.391 NotebookApp] Forbidden
+[W 14:03:58.392 NotebookApp] 403 GET /api/kernelspecs?1690826638377 (127.0.0.1) 1.630000ms referer=None
+[W 14:04:23.783 NotebookApp] 404 GET /hub/api (127.0.0.1) 1.360000ms referer=None
+[I 14:04:23.787 NotebookApp] 302 GET /tree? (127.0.0.1) 0.730000ms
+[I 14:04:23.872 NotebookApp] Kernel started: 26fb54e7-477e-49da-afe6-1d62c0171743, name: python3
+[E 14:04:44.419 NotebookApp] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/iostream.py", line 695, in _handle_events
+        self._handle_write()
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/iostream.py", line 965, in _handle_write
+        self._write_buffer.advance(num_bytes)
+      File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/iostream.py", line 182, in advance
+        assert 0 < size <= self._size
+    AssertionError
+[W 14:04:44.452 NotebookApp] zmq message arrived on closed channel
+[W 14:04:44.453 NotebookApp] zmq message arrived on closed channel
+Exception in callback None()
+handle: <Handle cancelled>
+Traceback (most recent call last):
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 192, in _handle_events
+    handler_func(fileobj, events)
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/iostream.py", line 695, in _handle_events
+    self._handle_write()
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/iostream.py", line 965, in _handle_write
+    self._write_buffer.advance(num_bytes)
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/tornado/iostream.py", line 182, in advance
+    assert 0 < size <= self._size
+AssertionError
+[W 14:04:44.456 NotebookApp] zmq message arrived on closed channel
+[I 14:04:44.457 NotebookApp] Starting buffering for 26fb54e7-477e-49da-afe6-1d62c0171743:21565e2d-1ae8-4d09-ae26-f63302a3cbbb
+[I 14:04:44.464 NotebookApp] Restoring connection for 26fb54e7-477e-49da-afe6-1d62c0171743:21565e2d-1ae8-4d09-ae26-f63302a3cbbb
+[I 14:04:44.465 NotebookApp] Replaying 2 buffered messages
+[W 14:04:45.291 NotebookApp] 404 GET /hub/api (127.0.0.1) 2.880000ms referer=None
+[I 14:04:45.294 NotebookApp] 302 GET /tree? (127.0.0.1) 0.690000ms
+[W 14:04:45.318 NotebookApp] Forbidden
+[W 14:04:45.319 NotebookApp] 403 GET /api/kernelspecs?1690826685296 (127.0.0.1) 7.360000ms referer=None
+[W 14:04:45.323 NotebookApp] Forbidden
+[W 14:04:45.325 NotebookApp] 403 GET /api/kernelspecs?1690826685297 (127.0.0.1) 11.630000ms referer=None
+[W 14:04:45.325 NotebookApp] Forbidden
+[W 14:04:45.326 NotebookApp] 403 GET /api/kernels?1690826685298 (127.0.0.1) 12.430000ms referer=None
+[W 14:04:45.327 NotebookApp] Forbidden
+[W 14:04:45.327 NotebookApp] 403 GET /api/kernels?1690826685299 (127.0.0.1) 12.730000ms referer=None
+[W 14:04:45.328 NotebookApp] Forbidden
+[W 14:04:45.328 NotebookApp] 403 GET /api/kernels?1690826685302 (127.0.0.1) 12.420000ms referer=None
+[W 14:04:45.330 NotebookApp] Forbidden
+[W 14:04:45.331 NotebookApp] 403 GET /api/kernels?1690826685303 (127.0.0.1) 14.030000ms referer=None
+[W 14:04:45.331 NotebookApp] Forbidden
+[W 14:04:45.332 NotebookApp] 403 GET /api/sessions?1690826685305 (127.0.0.1) 14.770000ms referer=None
+[W 14:04:45.332 NotebookApp] Forbidden
+[W 14:04:45.332 NotebookApp] 403 GET /api/sessions?1690826685306 (127.0.0.1) 15.170000ms referer=None
+[W 14:04:45.337 NotebookApp] Forbidden
+[W 14:04:45.337 NotebookApp] 403 GET /api/kernelspecs?1690826685320 (127.0.0.1) 2.290000ms referer=None
+[W 14:04:45.340 NotebookApp] Forbidden
+[W 14:04:45.340 NotebookApp] 403 GET /api/kernelspecs?1690826685325 (127.0.0.1) 4.330000ms referer=None
+[I 14:05:01.957 NotebookApp] Starting buffering for aef615f8-fa2a-4fb8-b6aa-165333892d6b:78d88424-f4b8-46dc-9646-9493ea5fbdba
+[W 14:05:04.037 NotebookApp] 404 GET /hub/api (127.0.0.1) 2.260000ms referer=None
+[I 14:05:04.044 NotebookApp] 302 GET /tree? (127.0.0.1) 0.880000ms
+[W 14:05:04.072 NotebookApp] Forbidden
+[W 14:05:04.073 NotebookApp] 403 GET /api/kernelspecs?1690826704048 (127.0.0.1) 7.310000ms referer=None
+[W 14:05:04.073 NotebookApp] Forbidden
+[W 14:05:04.074 NotebookApp] 403 GET /api/kernelspecs?1690826704049 (127.0.0.1) 7.500000ms referer=None
+[W 14:05:04.074 NotebookApp] Forbidden
+[W 14:05:04.074 NotebookApp] 403 GET /api/kernels?1690826704051 (127.0.0.1) 7.930000ms referer=None
+[W 14:05:04.076 NotebookApp] Forbidden
+[W 14:05:04.076 NotebookApp] 403 GET /api/kernels?1690826704052 (127.0.0.1) 8.770000ms referer=None
+[W 14:05:04.078 NotebookApp] Forbidden
+[W 14:05:04.079 NotebookApp] 403 GET /api/kernels?1690826704054 (127.0.0.1) 9.830000ms referer=None
+[W 14:05:04.079 NotebookApp] Forbidden
+[W 14:05:04.080 NotebookApp] 403 GET /api/kernels?1690826704055 (127.0.0.1) 10.210000ms referer=None
+[W 14:05:04.082 NotebookApp] Forbidden
+[W 14:05:04.083 NotebookApp] 403 GET /api/sessions?1690826704059 (127.0.0.1) 11.920000ms referer=None
+[W 14:05:04.096 NotebookApp] Forbidden
+[W 14:05:04.096 NotebookApp] 403 GET /api/sessions?1690826704060 (127.0.0.1) 12.310000ms referer=None
+[W 14:05:04.101 NotebookApp] Forbidden
+[W 14:05:04.102 NotebookApp] 403 GET /api/kernelspecs?1690826704074 (127.0.0.1) 2.940000ms referer=None
+[W 14:05:04.103 NotebookApp] Forbidden
+[W 14:05:04.104 NotebookApp] 403 GET /api/kernelspecs?1690826704078 (127.0.0.1) 4.200000ms referer=None
+[IPKernelApp] ERROR | Exception in control handler:
+Traceback (most recent call last):
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/ipykernel/kernelbase.py", line 337, in process_control
+    await result
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/ipykernel/kernelbase.py", line 967, in debug_request
+    reply_content = await reply_content
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/ipykernel/ipkernel.py", line 503, in do_debug_request
+    return await self.debugger.process_request(msg)
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/ipykernel/debugger.py", line 737, in process_request
+    self.stop()
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/ipykernel/debugger.py", line 447, in stop
+    self.debugpy_client.disconnect_tcp_socket()
+  File "/Users/vatsal/miniconda3/envs/p309/lib/python3.9/site-packages/ipykernel/debugger.py", line 280, in disconnect_tcp_socket
+    self.debugpy_stream.socket.disconnect(self._get_endpoint())
+  File "zmq/backend/cython/socket.pyx", line 664, in zmq.backend.cython.socket.Socket.disconnect
+zmq.error.ZMQError: No such file or directory
+[I 23:23:45.754 NotebookApp] Shutting down on /api/shutdown request.
+[I 23:23:45.783 NotebookApp] Shutting down 3 kernels
+[I 23:23:45.800 NotebookApp] Kernel shutdown: 26fb54e7-477e-49da-afe6-1d62c0171743
+[I 23:23:48.537 NotebookApp] Kernel shutdown: 02fa1d1c-5be4-4941-a360-970cf36abb2b
+[I 23:23:50.379 NotebookApp] Kernel shutdown: aef615f8-fa2a-4fb8-b6aa-165333892d6b
+[C 23:23:50.927 NotebookApp] received signal 15, stopping
+[I 23:23:52.897 NotebookApp] Shutting down 0 terminals
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                       
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
